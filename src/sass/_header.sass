@@ -1,2 +1,31 @@
 #header 
+  background-image: url("../../public/img/banner1.jpg")
+  position: relative
+  background-size: cover
+  background-position-x: center
+  background-position-y: center
+  &::before
+    background-color: rgba(0,0,0,0.65)
+    content: ""
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+
+  .border-nav
+    border: white solid 1px
+    border-left: none
+    border-right: none
   
+  .border-r
+    border-radius: $bor-round
+  
+  .separation
+    background-image: url("../../public/img/bottom_decoration_img.png")
+    background-repeat: repeat-x
+    height: 10px
+
+  .hover
+    &:hover
+      background-color: $danger
