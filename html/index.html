@@ -366,28 +366,91 @@
         <img src="../public/img/box-bottom-left-grey.png" alt="Deco" class="deco-bot-left">
         <img src="../public/img/box-bottom_right-grey.png" alt="Deco" class="deco-bot-right">
         <div id="book-table">
-          <h1 class="main-font pt-5 pb-2">
-            <span class="text-uppercase text-danger">Book</span> Your Table
+          <h1 class="main-font pt-5 mb-5">
+            <span class="text-uppercase text-danger ">Book</span> Your Table
           </h1>
-          <div class="width-50 py-5 ">
-            <p class="text-center text-white">
+          <div class="width-50 py-5 book-bor">
+            <p class="text-center text-white mb-5">
               For any query please call
             </p>
-            <div class="row">
+            <div class="row pt-4">
               <div class="col-6">
-                <input type="text" placeholder="Enter Full Name">
-                <input type="text" placeholder="Phone Number">
-                <input type="text" placeholder="Date">
+                <input type="text" placeholder="Enter Full Name" class="form-form mb-3 px-2 rounded">
+                <input type="text" placeholder="Phone Number" class="form-form mb-3 px-2 rounded">
+                <input type="date" placeholder="Date" class="form-form mb-3 px-2 rounded">
+                <select name="Occasion" id="" class="form-form px-2 rounded">
+                  <option value="Birthday">Birthday</option>
+                  <option value="Work party">Work party</option>
+                </select>
               </div>
               <div class="col-6">
-                <input type="text" placeholder="Enter Id">
-                <input type="text" placeholder="Time">
+                <input type="text" placeholder="Enter Id" class="form-form mb-3 px-2 rounded">
+                <select name="No of Person" id="" class="form-form mb-3 px-2 rounded">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <input type="text" placeholder="Time" class="form-form mb-3 px-2 rounded">
+                <select name="Cuisine" id="" class="form-form px-2 rounded">
+                  <option value=""></option>
+                  <option value=""></option>
+                  <option value=""></option>
+                </select>
+              </div>
+              <div id="button" class="m-auto pt-5">
+                <button type="button" class="btn bg-danger text-uppercase text-white px-3 py-3">Book Now</button>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div id="blog" class="my-5">
+          <h1 class="main-font mb-5">
+            <span class="text-uppercase text-danger">Our</span> Blog
+          </h1>
+          <div class="wid-75 m-auto">
+            <div class="row">
+              <div class="col-6">
+                <img src="../public/img/blog_img1.jpg" alt="img1" class="bor-img bor-blog">
+                <p class="small-font bor-blog bg-danger px-2 py-3 d-inline-block info-blog">
+                  <span class="font-weight-bold">12</span> Avril 2017 /
+                  <span class="font-weight-bold">20</span> comments /
+                  <span class="font-weight-bold">35</span> Likes
+                </p>
+                <div class="wid-75">
+                  <h3 class="text-left font-weight-bold mb-3">Lorem, ipsum.</h3>
+                  <p class="text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci optio atque nostrum!
+                  </p>
+                </div>
+              </div>
+              <div class="col-6">
+                <img src="../public/img/blog_img2.jpg" alt="img2" class="bor-img bor-blog">
+                <p class="small-font bor bor-blog bg-danger px-2 py-3 d-inline-block info-blog">
+                  <span class="font-weight-bold">12</span> Avril 2017 /
+                  <span class="font-weight-bold">20</span> comments /
+                  <span class="font-weight-bold">35</span> Likes
+                </p>
+                <div class="wid-75">
+                  <h3 class="text-left font-weight-bold mb-3">Lorem, ipsum.</h3>
+                  <p class="text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci optio atque nostrum!
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <div id="button" class="mb-5">
+          <button type="button" class="btn bg-danger text-uppercase text-white px-3 py-3">Know more</button>
+        </div>
       </div>
     </div>
+  </section>
+
+  <section id="testimonial">
+
   </section>
 
   <script src="../public/js/fontawesome.js "></script>
