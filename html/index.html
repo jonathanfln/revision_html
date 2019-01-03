@@ -10,14 +10,15 @@
 </head>
 
 <body>
+  <!-- Header -->
   <header id="header">
     <div class="container z-index-1">
+
+      <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavAltMarkup">
           <div class="navbar-nav border-nav">
-            <a class="nav-item nav-link active text-uppercase text-white py-2 px-3 hover" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
+            <a class="nav-item nav-link active text-uppercase text-white py-2 px-3 hover" href="#">Home</a>
             <a class="nav-item nav-link text-uppercase text-white py-2 px-3 hover" href="#">About us</a>
             <a class="nav-item nav-link text-uppercase text-white py-2 px-3 hover" href="#">Menu list</a>
             <a class="nav-item nav-link text-uppercase text-white py-2 px-3 hover" href="#">Team</a>
@@ -34,6 +35,8 @@
           </div>
         </div>
       </nav>
+
+      <!-- Text header -->
       <div class="">
         <p class="text-white font-weight-bold text-center big-font my-5 main-font">
           Whatever your
@@ -44,14 +47,18 @@
           <span>remember</span> !
         </p>
       </div>
+
+      <!-- Button header -->
       <div class="text-center mb-5 pb-5">
-        <p class="text-uppercase py-2 px-3 bg-white border-r d-inline-block">
-          <a href="" class="text-dark">Purchase theme</a>
-        </p>
-        <p class="text-uppercase py-2 px-3 bg-danger border-r d-inline-block">
-          <a href="" class="text-white">Learn more</a>
-        </p>
+        <div id="button" class="mb-5 d-inline-block">
+          <button type="button" class="btn bg-white text-dark text-uppercase px-3 py-3">Purchase theme</button>
+        </div>
+        <div id="button" class="mb-5 d-inline-block">
+          <button type="button" class="btn bg-danger text-uppercase text-white px-3 py-3">Learn more</button>
+        </div>
       </div>
+
+      <!-- Small dots for carousel -->
       <div class="text-center my-5">
         <div class="d-inline-block">
           <div class="rounded-circle bg-white p-2">
@@ -67,16 +74,23 @@
         </div>
       </div>
     </div>
+
+    <!-- Separation section -->
     <div class="separation z-index-1"></div>
   </header>
 
+  <!-- Story and menu -->
   <section id="storylist">
     <div class="my-5">
       <div class="container-90 bg-white bor-secondary text-center relative">
+
+        <!-- corners for the div -->
         <img src="../public/img/box-left-top.png" alt="deco" class="deco-top-left">
         <img src="../public/img/box-right-top.png" alt="deco" class="deco-top-right">
         <img src="../public/img/box-bottom-left.png" alt="deco" class="deco-bot-left">
         <img src="../public/img/box-bottom_right.png" alt="deco" class="deco-bot-right">
+
+        <!-- Story -->
         <div>
           <h1 class="pt-5 pb-2 main-font">
             <span class="text-uppercase text-danger">Our</span> Story
@@ -90,37 +104,43 @@
             accusamus labore aspernatur unde mollitia. Assumenda pariatur recusandae maiores, ratione amet rem.
           </p>
         </div>
+
+        <!-- Menulist -->
         <div>
           <h1 class="pb-3 main-font">
             <span class="text-uppercase text-danger">Our</span> Menu List
           </h1>
           <div class="row pb-5">
+
+            <!-- icones left -->
             <div class="col-2">
               <div class="bor-menu mx-1 hover">
-                <a href="" class="text-secondary">
+                <a href="" class="text-dark">
                   <i class="fas fa-coffee fa-3x"></i>
                   <p class="mid-font mb-1 main-font">BreakFast</p>
                 </a>
               </div>
               <div class="bor-menu mx-1 hover">
-                <a href="" class="text-secondary">
+                <a href="" class="text-dark">
                   <i class="fas fa-utensils fa-3x mt-2"></i>
                   <p class="mid-font mb-1 main-font">Lunch</p>
                 </a>
               </div>
               <div class="bor-menu mx-1 hover">
-                <a href="" class="text-secondary">
+                <a href="" class="text-dark">
                   <i class="fas fa-utensils fa-3x mt-2"></i>
                   <p class="mid-font mb-1 main-font">Snacks</p>
                 </a>
               </div>
               <div class="bor-menu mx-1 hover">
-                <a href="" class="text-secondary">
+                <a href="" class="text-dark">
                   <i class="fas fa-coffee fa-3x mt-2"></i>
                   <p class="mid-font mb-1 main-font">Dinner</p>
                 </a>
               </div>
             </div>
+
+            <!-- list -->
             <div class="col-10">
               <div class="row mt-1">
                 <div class="col-6">
@@ -129,16 +149,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
+                      <p class="m-0">
                         <span class="font-weight-bold">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -148,16 +166,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
-                        <span class="font-weight-bold">Deer steak with potatoes</span>
+                      <p class="m-0">
+                        <span class="font-weight-bold m-0">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -169,16 +185,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
+                      <p class="m-0">
                         <span class="font-weight-bold">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -188,16 +202,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
+                      <p class="m-0">
                         <span class="font-weight-bold">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -209,16 +221,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
+                      <p class="m-0">
                         <span class="font-weight-bold">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -228,16 +238,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
+                      <p class="m-0">
                         <span class="font-weight-bold">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -249,16 +257,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
+                      <p class="m-0">
                         <span class="font-weight-bold">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -268,16 +274,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
+                      <p class="m-0">
                         <span class="font-weight-bold">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -289,16 +293,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
+                      <p class="m-0">
                         <span class="font-weight-bold">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -308,16 +310,14 @@
                       <img src="../public/img/menu_image_1.jpg" alt="menu list" class="rounded-circle bor-img" height="100px">
                     </div>
                     <div class="col-7">
-                      <p>
+                      <p class="m-0">
                         <span class="font-weight-bold">Deer steak with potatoes</span>
                         <br>Welcome to Risotto restaurant
                         <br>website. Here we try toshare our
                       </p>
                     </div>
                     <div class="col">
-                      <p class="bg-secondary text-danger small-font rounded">
-                        $25
-                      </p>
+                      <span class="badge badge-secondary text-danger small-font">$25</span>
                     </div>
                   </div>
                 </div>
@@ -325,6 +325,8 @@
             </div>
           </div>
         </div>
+
+        <!-- Underline menu -->
         <div>
           <h1 class="p-4"></h1>
         </div>
@@ -332,6 +334,7 @@
     </div>
   </section>
 
+  <!-- Chefs -->
   <section id="chef">
     <div class="chef">
       <h1 class="pt-5 pb-2 main-font text-white text-center">
@@ -358,13 +361,18 @@
     </div>
   </section>
 
+  <!-- Book a table and our blog -->
   <section id="book-blog">
     <div class="my-5">
       <div class="container-90 bg-white bor-secondary relative text-center">
+
+        <!-- corners for the div -->
         <img src="../public/img/box-left-top-grey.png" alt="Deco" class="deco-top-left">
         <img src="../public/img/box-right-top-grey.png" alt="Deco" class="deco-top-right">
         <img src="../public/img/box-bottom-left-grey.png" alt="Deco" class="deco-bot-left">
         <img src="../public/img/box-bottom_right-grey.png" alt="Deco" class="deco-bot-right">
+
+        <!-- Book a table -->
         <div id="book-table">
           <h1 class="main-font pt-5 mb-5">
             <span class="text-uppercase text-danger ">Book</span> Your Table
@@ -373,6 +381,8 @@
             <p class="text-center text-white mb-5">
               For any query please call
             </p>
+
+            <!-- form -->
             <div class="row pt-4">
               <div class="col-6">
                 <input type="text" placeholder="Enter Full Name" class="form-form mb-3 px-2 rounded">
@@ -397,6 +407,8 @@
                   <option value=""></option>
                 </select>
               </div>
+
+              <!-- Butoon to book -->
               <div id="button" class="m-auto pt-5">
                 <button type="button" class="btn bg-danger text-uppercase text-white px-3 py-3">Book Now</button>
                 </button>
@@ -413,7 +425,7 @@
             <div class="row">
               <div class="col-6">
                 <img src="../public/img/blog_img1.jpg" alt="img1" class="bor-img bor-blog">
-                <p class="small-font bor-blog bg-danger px-2 py-3 d-inline-block info-blog">
+                <p class="small-font bor-blog bg-danger px-2 py-3 d-inline-block info-blog text-white">
                   <span class="font-weight-bold">12</span> Avril 2017 /
                   <span class="font-weight-bold">20</span> comments /
                   <span class="font-weight-bold">35</span> Likes
@@ -427,7 +439,7 @@
               </div>
               <div class="col-6">
                 <img src="../public/img/blog_img2.jpg" alt="img2" class="bor-img bor-blog">
-                <p class="small-font bor bor-blog bg-danger px-2 py-3 d-inline-block info-blog">
+                <p class="small-font bor bor-blog bg-danger px-2 py-3 d-inline-block info-blog text-white">
                   <span class="font-weight-bold">12</span> Avril 2017 /
                   <span class="font-weight-bold">20</span> comments /
                   <span class="font-weight-bold">35</span> Likes
@@ -516,8 +528,90 @@
   </section>
 
   <footer id="footer">
+    <div class="separation">
+      <div class="col-11 m-auto pt-5">
+        <div class="row">
+          <div class="col-4 mt-3 mb-5">
+            <h2 class="text-white text-uppercase text-left mb-4">About Us</h2>
+            <p class="text-white">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui inventore aliquam officia, beatae adipisci ipsum, quas odio
+              corrupti obcaecati ipsam repudiandae id soluta, nam tenetur aperiam maiores expedita dignissimos dolore a dolorum!
+            </p>
+            <div class="d-flex mt-4">
+              <a href="" class="icon mr-5 text-white">
+                <i class="fab fa-facebook-f fa-2x"></i>
+              </a>
+              <a href="" class="icon mr-5 text-white">
+                <i class="fab fa-google-plus-g fa-2x"></i>
+              </a>
+              <a href="" class="icon mr-5 text-white">
+                <i class="fab fa-pinterest-p fa-2x"></i>
+              </a>
+              <a href="" class="icon mr-5 text-white">
+                <i class="fab fa-linkedin-in fa-2x"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-4">
+            <h2 class="text-white text-uppercase text-left">Instagram</h2>
 
+            <!-- Premiere ligne instagram -->
+            <div class="row text-center pb-3">
+              <div class="col-3">
+                <img src="../public/img/instragram_gallery_img1.jpg" alt="plat" class="img-fluid">
+              </div>
+              <div class="col-3">
+                <img src="../public/img/instragram_gallery_img2.jpg" alt="plat" class="img-fluid">
+              </div>
+              <div class="col-3">
+                <img src="../public/img/instragram_gallery_img1.jpg" alt="plat" class="img-fluid">
+              </div>
+              <div class="col-3">
+                <img src="../public/img/instragram_gallery_img2.jpg" alt="plat" class="img-fluid">
+              </div>
+            </div>
+
+            <!-- Deuxieme ligne instagram -->
+            <div class="row text-center">
+              <div class="col-3">
+                <img src="../public/img/instragram_gallery_img1.jpg" alt="plat" class="img-fluid">
+              </div>
+              <div class="col-3">
+                <img src="../public/img/instragram_gallery_img2.jpg" alt="plat" class="img-fluid">
+              </div>
+              <div class="col-3">
+                <img src="../public/img/instragram_gallery_img1.jpg" alt="plat" class="img-fluid">
+              </div>
+              <div class="col-3">
+                <img src="../public/img/instragram_gallery_img2.jpg" alt="plat" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <h2 class="text-white text-uppercase text-left">Popular tags</h2>
+            <div>
+              <p class="text-white border border-white d-inline-block py-2 px-3 border-r bg-danger mr-3">Restaurant</p>
+              <p class="text-white border border-white d-inline-block py-2 px-3 border-r bg-danger mr-3">Responsive Design</p>
+              <p class="text-white border border-white d-inline-block py-2 px-3 border-r bg-danger mr-3">Hotel</p>
+            </div>
+            <div>
+              <p class="text-white border border-white d-inline-block py-2 px-3 border-r bg-danger mr-3">Blog Section</p>
+              <p class="text-white border border-white d-inline-block py-2 px-3 border-r bg-danger mr-3">SEO</p>
+              <p class="text-white border border-white d-inline-block py-2 px-3 border-r bg-danger mr-3">Cuisine</p>
+            </div>
+            <div>
+              <p class="text-white border border-white d-inline-block py-2 px-3 border-r bg-danger mr-3">Graphic</p>
+              <p class="text-white border border-white d-inline-block py-2 px-3 border-r bg-danger mr-3">Food</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <section id="red-border">
+    <div class="py-5 bg-danger"></div>
+  </section>
 
   <script src="../public/js/fontawesome.js "></script>
 
